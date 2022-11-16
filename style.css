@@ -1,0 +1,32 @@
+.padding-top {
+  padding-top: 64px;
+}
+.title-navigator {
+  width: 550px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.owl-carousel .item {
+  height: 10rem;
+  background: #4dc7a0;
+  padding: 1rem;
+}
+.nav-for-mobile {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  margin: auto;
+  width: 150px;
+  justify-content: space-between;
+  display: none;
+}
+@media only screen and (max-width: 667px) {
+  .nav-for-big-screen {
+    display: none;
+  }
+  .nav-for-mobile {
+    display: block;
+  }
+}
